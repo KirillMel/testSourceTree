@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let anotherConstant = 45
         // Do any additional setup after loading the view.
     }
 
