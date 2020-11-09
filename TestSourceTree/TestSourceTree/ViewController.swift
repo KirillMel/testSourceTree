@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let tmp = 10
 
     @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad() {
