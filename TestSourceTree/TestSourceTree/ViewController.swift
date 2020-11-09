@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let anotherConstant = 45
+        
+        myButton.layer.cornerRadius = CGFloat(anotherConstant)
+        myButton.backgroundColor = .red
+        
     }
 
 
