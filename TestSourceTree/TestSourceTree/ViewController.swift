@@ -8,13 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    let tmp = 10
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let anotherConstant = 45
         // Do any additional setup after loading the view.
     }
 
